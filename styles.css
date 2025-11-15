@@ -7,3 +7,21 @@
 html {
     scroll-behavior: smooth;
   }
+  
+  .card-body {
+  min-height: 260px; 
+}
+
+
+@media (max-width: 992px) {
+  .card-body {
+    min-height: 220px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .card-body {
+    min-height: 180px;
+  }
+}
